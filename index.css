@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 241, 238);
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar :start */
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4vw;
+}
+#logo {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+  justify-content: flex-start;
+  color: white;
+
+}
+#logo img {
+  height: 10vh;
+  padding-right: 2vw;
+}
+#company_name{
+    text-align: center;
+    font-size: 2.5vh;
+    letter-spacing: -1px;
+}
+#company_name h5{
+    color: goldenrod;
+}
+#nav_left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+#nav_left a{
+    color: white;
+    font-weight: 900;
+}
+#nav_right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#nav_right button{
+border: none;
+padding: 15px;
+border-radius: 50px;
+background: transparent;
+background-color: rgb(243, 234, 234);
+font-weight: 900;
+color: goldenrod;
+}
+/* navbar :End */
+
+/* Section header Start */
+header{
+    width: 100%;
+    height: 70%;
+}
+header #main{
+width: 100%;
+height: 100%;
+text-align: center;
+}
+header #main img{
+    width: 95%;
+    height: 100%;
+    margin-top: 2vh;
+    }
+
+
+/* Section header End */
